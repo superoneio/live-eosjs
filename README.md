@@ -90,7 +90,7 @@ let result = await live.eosTokenTransfer({
     from: 'superoneioaa',
     to: 'superoneiobb',
     amount: '0.0100',
-    tokenName: 'EOS',
+    symbol: 'EOS',
     precision: 4,
     contract: 'eosio.token',
     memo: 'test'
